@@ -71,7 +71,7 @@ def load_player_data(player_id=1):
         else:
             print(f"No weapon data for ID {weapon_id}")
             db_data = {'ship_data': ship_data, 'weapon_data': {}}
-        
+        # mobs
         # Load mob data
         cursor.execute('SELECT * FROM Mobs LIMIT 1')  # Get first mob for now
         mob_data = cursor.fetchone()
