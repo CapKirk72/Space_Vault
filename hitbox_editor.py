@@ -7,6 +7,7 @@ from tkinter import filedialog
 from collections import deque
 import sqlite3
 
+# This is the hitbox editor
 # Constants
 SCREEN_WIDTH = 1200
 SCREEN_HEIGHT = 800
